@@ -14,64 +14,65 @@
 
 <body>
     <!-- COOKIE MODAL -->
-<div id="cookie-modal" class="cookie-modal">
-    <div class="cookie-modal-content">
-        <button class="cookie-modal-close" id="cookie-modal-close" aria-label="Cerrar modal">×</button>
-        
-        <h2 class="cookie-modal-title">CONFIGURACIÓN DE COOKIES</h2>
-        
-        <p class="cookie-modal-text">
-            UTILIZAMOS COOKIES PARA MEJORAR TU EXPERIENCIA EN NUESTRO SITIO WEB. ALGUNAS SON ESENCIALES PARA EL FUNCIONAMIENTO DEL SITIO, MIENTRAS QUE OTRAS NOS AYUDAN A ENTENDER CÓMO INTERACTÚAS CON NOSOTROS.
-        </p>
+    <div id="cookie-modal" class="cookie-modal">
+        <div class="cookie-modal-content">
+            <button class="cookie-modal-close" id="cookie-modal-close" aria-label="Cerrar modal">×</button>
 
-        <div class="cookie-options">
-            <div class="cookie-option">
-                <div class="cookie-option-info">
-                    <div class="cookie-option-title">COOKIES ESENCIALES</div>
-                    <div class="cookie-option-description">
-                        Necesarias para el funcionamiento básico del sitio web. No se pueden desactivar.
+            <h2 class="cookie-modal-title">CONFIGURACIÓN DE COOKIES</h2>
+
+            <p class="cookie-modal-text">
+                UTILIZAMOS COOKIES PARA MEJORAR TU EXPERIENCIA EN NUESTRO SITIO WEB. ALGUNAS SON ESENCIALES PARA EL
+                FUNCIONAMIENTO DEL SITIO, MIENTRAS QUE OTRAS NOS AYUDAN A ENTENDER CÓMO INTERACTÚAS CON NOSOTROS.
+            </p>
+
+            <div class="cookie-options">
+                <div class="cookie-option">
+                    <div class="cookie-option-info">
+                        <div class="cookie-option-title">COOKIES ESENCIALES</div>
+                        <div class="cookie-option-description">
+                            Necesarias para el funcionamiento básico del sitio web. No se pueden desactivar.
+                        </div>
+                    </div>
+                    <div class="cookie-toggle">
+                        <input type="checkbox" id="cookie-essential" checked disabled>
                     </div>
                 </div>
-                <div class="cookie-toggle">
-                    <input type="checkbox" id="cookie-essential" checked disabled>
+
+                <div class="cookie-option">
+                    <div class="cookie-option-info">
+                        <div class="cookie-option-title">COOKIES ANALÍTICAS</div>
+                        <div class="cookie-option-description">
+                            Nos ayudan a entender cómo los visitantes interactúan con el sitio web.
+                        </div>
+                    </div>
+                    <div class="cookie-toggle">
+                        <input type="checkbox" id="cookie-analytics">
+                    </div>
+                </div>
+
+                <div class="cookie-option">
+                    <div class="cookie-option-info">
+                        <div class="cookie-option-title">COOKIES DE MARKETING</div>
+                        <div class="cookie-option-description">
+                            Utilizadas para mostrar anuncios relevantes y medir la efectividad de campañas.
+                        </div>
+                    </div>
+                    <div class="cookie-toggle">
+                        <input type="checkbox" id="cookie-marketing">
+                    </div>
                 </div>
             </div>
 
-            <div class="cookie-option">
-                <div class="cookie-option-info">
-                    <div class="cookie-option-title">COOKIES ANALÍTICAS</div>
-                    <div class="cookie-option-description">
-                        Nos ayudan a entender cómo los visitantes interactúan con el sitio web.
-                    </div>
-                </div>
-                <div class="cookie-toggle">
-                    <input type="checkbox" id="cookie-analytics">
-                </div>
+            <div class="cookie-modal-buttons">
+                <button class="cookie-btn cookie-btn-accept-all" id="cookie-accept-all">
+                    ACEPTAR TODO
+                </button>
+                <button class="cookie-btn cookie-btn-save" id="cookie-save-preferences">
+                    GUARDAR PREFERENCIAS
+                </button>
             </div>
-
-            <div class="cookie-option">
-                <div class="cookie-option-info">
-                    <div class="cookie-option-title">COOKIES DE MARKETING</div>
-                    <div class="cookie-option-description">
-                        Utilizadas para mostrar anuncios relevantes y medir la efectividad de campañas.
-                    </div>
-                </div>
-                <div class="cookie-toggle">
-                    <input type="checkbox" id="cookie-marketing">
-                </div>
-            </div>
-        </div>
-
-        <div class="cookie-modal-buttons">
-            <button class="cookie-btn cookie-btn-accept-all" id="cookie-accept-all">
-                ACEPTAR TODO
-            </button>
-            <button class="cookie-btn cookie-btn-save" id="cookie-save-preferences">
-                GUARDAR PREFERENCIAS
-            </button>
         </div>
     </div>
-</div>
 
     <!-- MENU NAVEGACION -->
     <header class="navbar">
@@ -195,51 +196,59 @@
     <main class="lineup-container" id="lineup">
         <section class="lineup-grid">
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/Ralphie.mp4?updatedAt=1762252660654" aria-label="Ralphie Choo" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/YungBeef.mp4?updatedAt=1767786793997"
+                    aria-label="yung beef" autoplay muted loop playsinline></video>
+                <div class="card-footer">
+                    <div class="card-name"><span>YUNG BEEF</span></div><span class="card-date">5.10.25</span>
+                </div>
+            </article>
+            <article class="artist-card">
+                <video src="https://ik.imagekit.io/estrellabradley/videos/Ralphie.mp4?updatedAt=1762252660654"
+                    aria-label="Ralphie Choo" autoplay muted loop playsinline></video>
                 <div class="card-footer">
                     <div class="card-name"><span>RALPHIE CHOO</span></div><span class="card-date">3.10.25</span>
                 </div>
             </article>
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/BonCalso.mp4?updatedAt=1762252660637" aria-label="Bon Calso" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/Leiti.mp4?updatedAt=1767786794093"
+                    aria-label="Leiti" autoplay muted loop playsinline></video>
+                <div class="card-footer">
+                    <div class="card-name"><span>LEÏTI</span></div><span class="card-date">3.10.25</span>
+                </div>
+            </article>
+            <article class="artist-card">
+                <video src="https://ik.imagekit.io/estrellabradley/videos/BonCalso.mp4?updatedAt=1762252660637"
+                    aria-label="Bon Calso" autoplay muted loop playsinline></video>
                 <div class="card-footer">
                     <div class="card-name"><span>BON CALSO</span></div><span class="card-date">5.10.25</span>
                 </div>
             </article>
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/Rusowsky.mp4?updatedAt=1762252660577" aria-label="Rusowsky" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/Rusowsky.mp4?updatedAt=1762252660577"
+                    aria-label="Rusowsky" autoplay muted loop playsinline></video>
                 <div class="card-footer">
                     <div class="card-name"><span>RUSOWSKY</span></div><span class="card-date">4.10.25</span>
                 </div>
             </article>
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/Metrika1.mp4?updatedAt=1762252660600" aria-label="Metrika" autoplay muted loop playsinline></video>
-                <div class="card-footer">
-                    <div class="card-name"><span>METRIKA</span></div><span class="card-date">4.10.25</span>
-                </div>
-            </article>
-            <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/mvrk.mp4?updatedAt=1762252660590" aria-label="Mvrk" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/mvrk.mp4?updatedAt=1762252660590"
+                    aria-label="Mvrk" autoplay muted loop playsinline></video>
                 <div class="card-footer">
                     <div class="card-name"><span>MVRK</span></div><span class="card-date">4.10.25</span>
                 </div>
             </article>
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/TeoLucadamo.mp4?updatedAt=1762252660622" aria-label="Teo Lucadamo" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/TeoLucadamo.mp4?updatedAt=1762252660622"
+                    aria-label="Teo Lucadamo" autoplay muted loop playsinline></video>
                 <div class="card-footer">
                     <div class="card-name"><span>TEO LUCADAMO</span></div><span class="card-date">4.10.25</span>
                 </div>
             </article>
             <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/ElVirtual.mp4?updatedAt=1762252660638" aria-label="ElVirtual" autoplay muted loop playsinline></video>
+                <video src="https://ik.imagekit.io/estrellabradley/videos/Akriila1.mp4?updatedAt=17677867939123"
+                    aria-label="Akriila" autoplay muted loop playsinline></video>
                 <div class="card-footer">
-                    <div class="card-name"><span>EL VIRTUAL</span></div><span class="card-date">5.10.25</span>
-                </div>
-            </article>
-            <article class="artist-card">
-                <video src="https://ik.imagekit.io/estrellabradley/videos/l0rna.mp4?updatedAt=1762252660563" aria-label="l0rna" autoplay muted loop playsinline></video>
-                <div class="card-footer">
-                    <div class="card-name"><span>L0RNA</span></div><span class="card-date">3.10.25</span>
+                    <div class="card-name"><span>AKRIILA</span></div><span class="card-date">4.10.25</span>
                 </div>
             </article>
         </section>
