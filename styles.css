@@ -828,10 +828,17 @@ body.menu-open {
     font-size: 0.8em;
 }
 
+.footer-logo .logo-img {
+    height: clamp(50px, 7vw, 85px);
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
 .footer-divider {
     height: 1px;
     background: rgba(255, 255, 255, 0.6);
     margin: 40px 0;
+    width: 100%;
 }
 
 .partner-logos,
@@ -876,6 +883,10 @@ body.menu-open {
 
     .footer-logo {
         text-align: left;
+    }
+
+    .footer-logo .logo-img {
+        height: clamp(45px, 9vw, 70px);
     }
 
     .footer .partner-logos img,
